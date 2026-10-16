@@ -1,0 +1,18 @@
+{
+  "_说明": "建表模板：字段对象使用 fieldName/type/config（dws v1.0.55 实测），首字段 text 为主字段；records 的 cells 用 fieldId（执行前先 field list 取映射）",
+  "tableName": "示例项目管理表",
+  "fields": [
+    {"fieldName": "项目名称", "type": "text"},
+    {"fieldName": "项目编号", "type": "text"},
+    {"fieldName": "负责人", "type": "user", "config": {"multiple": false}},
+    {"fieldName": "开始日期", "type": "date", "config": {"formatter": "YYYY-MM-DD"}},
+    {"fieldName": "结束日期", "type": "date", "config": {"formatter": "YYYY-MM-DD"}},
+    {"fieldName": "状态", "type": "singleSelect", "config": {"options": [{"name": "规划中"}, {"name": "进行中"}, {"name": "已结束"}, {"name": "暂停"}]}},
+    {"fieldName": "预算（元）", "type": "number", "config": {"formatter": "FLOAT_2"}},
+    {"fieldName": "备注", "type": "text"}
+  ],
+  "sampleRecords": [
+    {"项目名称": "年度营销", "项目编号": "P001", "状态": "进行中", "预算（元）": 100000},
+    {"项目名称": "产品升级", "项目编号": "P002", "状态": "规划中", "预算（元）": 50000}
+  ]
+}

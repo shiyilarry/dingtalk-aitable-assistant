@@ -1,0 +1,9 @@
+# 运行时产物
+__pycache__/
+*.pyc
+scripts/shots/
+
+# 登录态与本地配置（防误入）
+.dt_profile/
+.dt_login_profile/
+*.token
