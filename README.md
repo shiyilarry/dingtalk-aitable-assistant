@@ -83,9 +83,22 @@
 
 ## 安装
 
+### 方式一 · AI 助手一键安装（推荐）
+
+在 WorkBuddy（或任何具备文件与网络操作能力的 AI 助手）里直接说：
+
+> **「帮我安装这个技能：https://github.com/shiyilarry/dingtalk-aitable-assistant」**
+
+助手会自动完成：克隆仓库 → 放入 `%USERPROFILE%\.workbuddy\skills\` → 提示重启生效。
+
+### 方式二 · 手动安装
+
 1. 将本目录 `dingtalk-aitable-assistant` 复制到 `%USERPROFILE%\.workbuddy\skills\` 下；
 2. 重启 WorkBuddy；
 3. 首次使用时技能会自动检查并引导安装 `dws`，请保持网络畅通。
+
+> 命令行等价安装：
+> `git clone https://github.com/shiyilarry/dingtalk-aitable-assistant.git "%USERPROFILE%\.workbuddy\skills\dingtalk-aitable-assistant"`
 
 ## 快速上手（三大场景各一个示例）
 

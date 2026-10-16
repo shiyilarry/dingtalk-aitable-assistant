@@ -2,7 +2,7 @@
 name: dingtalk-aitable-assistant
 description: 钉钉AI表格三场景助手（搭建/同步/审计）。This skill should be used when 用户想在钉钉AI表格（多维表格/Base）上「建一个管理表并搭好字段结构、把本地 Excel/CSV 计算结果同步进已有表（含增量/覆盖/补列）、或对已有表格做只读审计优化」，或明确提到 @dingtalk-aitable-assistant、dws、aitable、多维表格、AI表格、建表、同步数据、审计表格、看板数据同步。
 agent_created: true
-version: 1.0.0
+version: 1.0.1
 dws_cli_version: ">=1.0.61"
 requires_upgrade_gate: true
 ---
